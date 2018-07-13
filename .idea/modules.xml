@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/593367261/Spring-multiple-module-project-sample.iml" filepath="$PROJECT_DIR$/.idea/modules/593367261/Spring-multiple-module-project-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app_main.iml" filepath="$PROJECT_DIR$/.idea/modules/app_main.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app_test.iml" filepath="$PROJECT_DIR$/.idea/modules/app_test.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib.iml" filepath="$PROJECT_DIR$/.idea/modules/lib.iml" group="lib" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lib_main.iml" group="lib" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lib_test.iml" group="lib" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+apply from: '../lib/dependencies.gradle'
+
+bootJar {
+    baseName = 'api'
+    version = '1.0.0-Dev'
+}
+
+group 'sample.dengchao'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    implementation project(":lib")
+}

@@ -1,0 +1,21 @@
+plugins {
+    id "io.spring.dependency-management"
+}
+
+// https://spring.io/guides/gs/multi-module/ 多模块工程
+ext { springBootVersion = '2.0.3.RELEASE' }
+
+apply plugin: 'java'
+apply from: '../lib/dependencies.gradle'
+
+group 'sample.dengchao'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencyManagement {
+    imports { mavenBom("org.springframework.boot:spring-boot-dependencies:${springBootVersion}") }
+}
+
+build.dependsOn('test')
